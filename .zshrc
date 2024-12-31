@@ -119,7 +119,6 @@ alias atualizar-sistema="sudo mount /dev/nvme0n1p1 /boot && sudo pacman -Syu"
 alias start-redis="sudo systemctl start redis"
 alias sb="sudo systemctl start bluetooth"
 alias pb="sudo systemctl stop bluetooth"
-#vpn da alrn, usuario: lemarq e senha:alrn2024@
 alias vpnalrn="sudo openvpn --config ~/Downloads/client.ovpn --data-ciphers AES-256-CBC"
 # alias for the dot files
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
